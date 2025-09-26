@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps & AI Automation Engineer Portfolio</title>
+    <title>Deepak Venkatram - DevOps & AI Automation Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -27,12 +27,20 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Automating Complexity, Engineering the Future.</h1>
-            <p>A DevOps and AI Automation Engineer specializing in building resilient, scalable infrastructure and intelligent workflows.</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
+        <div class="hero-content-wrapper">
+            <div class="hero-banner">
+                <div class="hero-text">
+                    <h1>Automating Complexity,<br>Engineering the Future.</h1>
+                    <p class="subtitle">A DevOps and AI Automation Engineer specializing in building resilient, scalable infrastructure and intelligent workflows.</p>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
+                </div>
+                <div class="hero-image-hexagon-container">
+                    <div class="hero-image-hexagon">
+                        <img src="./Deepak.jpg" alt="Professional Headshot">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="animated-background"></div>
     </section>
 
     <section id="about" class="container section-padding">
@@ -40,18 +48,16 @@
             <h2>About Me</h2>
         </div>
         <div class="about-content">
-            <div class="about-image">
-                <img src="./Deepak.jpg" alt="Professional Headshot">
-            </div>
-            <div class="about-text">
-                <p>Hello! I'm a passionate DevOps and AI Automation Engineer dedicated to streamlining development workflows and creating robust, scalable systems. My journey began with a fascination for how technology can solve complex problems, and I've since focused on leveraging cloud technologies, automation tools, and intelligent systems to build efficient and reliable solutions. I thrive on challenges, from managing intricate CI/CD pipelines to deploying AI-powered applications, always with an eye on security and performance. Let's connect and build something impactful together!</p>
-            </div>
+            <p>Hello! I'm a passionate and results-driven DevOps and AI Automation Engineer with a strong track record of designing, implementing, and optimizing robust infrastructure and intelligent workflows. My career is fueled by a deep fascination for leveraging cutting-edge cloud technologies, automation tools, and artificial intelligence to solve complex challenges and drive innovation.</p>
+            <p>I specialize in building end-to-end CI/CD pipelines, orchestrating scalable containerized applications with Kubernetes, and automating operational tasks to enhance efficiency and reliability. My expertise extends to implementing DevSecOps practices, ensuring security is integrated from the ground up, and setting up comprehensive monitoring solutions that provide deep insights into system performance.</p>
+            <p>Beyond traditional DevOps, I actively explore and integrate AI-powered automation frameworks to create smarter, more autonomous systems. Whether it's deploying machine learning models in production environments or automating business processes with intelligent agents, I'm committed to engineering solutions that are not only efficient but also future-proof. Let's connect and collaborate on impactful projects that push the boundaries of technology!</p>
         </div>
     </section>
 
     <section id="skills" class="container section-padding">
         <div class="section-header">
             <h2>Skills & Expertise</h2>
+            <p class="sub-headline">My core competencies in DevOps, Cloud, and AI.</p>
         </div>
         <div class="skills-grid">
             <div class="skill-card">
@@ -65,7 +71,6 @@
                     <li><i class="fas fa-server"></i> Web Servers (Nginx, Apache)</li>
                 </ul>
             </div>
-
             <div class="skill-card">
                 <div class="card-header">
                     <i class="fas fa-stream"></i>
@@ -78,7 +83,6 @@
                     <li><i class="fas fa-robot"></i> AI Automation (n8n, Make)</li>
                 </ul>
             </div>
-
             <div class="skill-card">
                 <div class="card-header">
                     <i class="fas fa-box"></i>
@@ -90,7 +94,6 @@
                     <li><i class="fas fa-cubes"></i> Minikube</li>
                 </ul>
             </div>
-
             <div class="skill-card">
                 <div class="card-header">
                     <i class="fas fa-shield-alt"></i>
@@ -102,7 +105,6 @@
                     <li><i class="fas fa-shield-alt"></i> Pylint</li>
                 </ul>
             </div>
-
             <div class="skill-card">
                 <div class="card-header">
                     <i class="fas fa-chart-line"></i>
@@ -113,7 +115,6 @@
                     <li><i class="fas fa-chart-bar"></i> Grafana</li>
                 </ul>
             </div>
-
             <div class="skill-card">
                 <div class="card-header">
                     <i class="fas fa-code"></i>
@@ -134,7 +135,7 @@
         </div>
         <div class="contact-content">
             <form id="contact-form">
-                <input type="text" id="name" name="name" placeholder="Deepak Venkatram" required>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
                 <input type="email" id="email" name="email" placeholder="Your Email" required>
                 <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
                 <button type="submit" class="cta-button">Send Message</button>
